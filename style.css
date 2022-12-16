@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: rgb(28, 75, 206);
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding: 40px 0;
+}
+.lista-cadastro{
+    display: flex;
+    margin: 40px 0;
+    padding: 50px;
+}
+.lista-cadastro input[type=text]{
+    flex: 1;
+    height: 30px;
+}
+.lista-produtos-single{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.lista-produtos-single h3{
+    flex: 1;
+    padding: 0 30px;
+}
+.single{
+    text-align: right;
+}
+span{
+    padding: 5px 5px;
+    border-radius: 25px;
+    background-color: rgb(78, 78, 254);
+    color: white;
+}
+.soma{
+    margin: 20px;
+}
